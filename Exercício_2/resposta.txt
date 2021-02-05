@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS professores (
 
 CREATE TABLE IF NOT EXISTS cursos (
     id_curso INT NOT NULL,
-    codigo INT NOT NULL,
+    codigo VARCHAR(50) NOT NULL,
     nome VARCHAR(75) NOT NULL,
     modalidade ENUM('EAD', 'Presencial'),
     maximo_alunos INT,
