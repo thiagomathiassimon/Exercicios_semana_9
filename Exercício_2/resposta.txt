@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS professores (
     nome VARCHAR(50) NOT NULL,
     sobrenome VARCHAR(50) NOT NULL,
     endereco VARCHAR(500),
-    telefone INT(12),
+    telefone VARCHAR(20),
     email VARCHAR(150),
     data_nascimento DATE,
     nascionalidade VARCHAR(50),
