@@ -1,4 +1,4 @@
-Para a criação das tabelas pedidas, utilizaram-se os seguintes comandos:
+Para a criação das tabelas pedidas, utilizaram-se os comandos abaixo listados:
 CREATE TABLE IF NOT EXISTS professores (
     id_professor INT NOT NULL,
     nome VARCHAR(50) NOT NULL,
