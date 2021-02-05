@@ -1,0 +1,2 @@
+Para a criação do banco de dados, utilizou-se o seguinte comando:
+CREATE SCHEMA escola;
