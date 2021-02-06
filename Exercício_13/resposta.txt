@@ -1,0 +1,2 @@
+Para o 'select' requisitado, utilizou-se o seguinte comando:
+SELECT c.*, p.nome, p.sobrenome FROM cursos c INNER JOIN  professores p ON c.id_professor = p.id_professor WHERE sexo = 'Feminino';
