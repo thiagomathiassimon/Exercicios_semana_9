@@ -1,0 +1,21 @@
+Para a inserção nas tabelas, foram usados os comandos abaixo:
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Pedro', 'de Souza', 'Florianópolis, Centro', '(048) 9 9657-0001', 'pedro@gmail.com', 19700228, 'Brasileiro');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Ana', 'Silva', 'Florianópolis, Centro', '(048) 9 9657-0002', 'ana@gmail.com', 19670421, 'Brasileira');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('André', 'Krigrer', 'Florianópolis, Centro', '(048) 9 9657-0003', 'andre@gmail.com', 19790302, 'Brasileiro');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Juliana', 'Bruch', 'Florianópolis, Centro', '(048) 9 9657-0004', 'juliana@gmail.com', 19630611, 'Brasileira');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Mateus', 'Muller', 'Florianópolis, Centro', '(048) 9 9657-0005', 'mateus@gmail.com', 19800911, 'Brasileiro');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Luana', 'Klein', 'Florianópolis, Centro', '(048) 9 9657-0006', 'luana@gmail.com', 19681018, 'Brasileira');
+
+INSERT INTO cursos(codigo, nome, modalidade, maximo_alunos, id_professor) VALUES ('Admin-1/2021', 'Administração', 'Presencial', 37, 1);
+INSERT INTO cursos(codigo, nome, modalidade, maximo_alunos, id_professor) VALUES ('Bio-1/2021', 'Biologia', 'EAD', 60, 6);
+INSERT INTO cursos(codigo, nome, modalidade, maximo_alunos, id_professor) VALUES ('Cont-1/2021', 'Contabilidade', 'Presencial', 33, 4);
+INSERT INTO cursos(codigo, nome, modalidade, maximo_alunos, id_professor) VALUES ('Mat-1/2021', 'Matemática', 'Presencial', 30, 2);
+INSERT INTO cursos(codigo, nome, modalidade, maximo_alunos, id_professor) VALUES ('SisInf-1/2021', 'Sistemas da Informação', 'EAD', 50, 5);
+INSERT INTO cursos(codigo, nome, modalidade, maximo_alunos, id_professor) VALUES ('EngMec-1/2021', 'Engenharia Mecânica', 'Presencial', 22, 3);
+
+INSERT INTO alunos(nome, sobrenome, matricula, email, data_nascimento, nascionalidade, media_geral, id_curso) VALUES ('Julio', 'Medeiros', 'Alumn-Bio-1/2021', 'julio@gmail.com', 19870526, 'Brasileiro', 8.9, 2);
+INSERT INTO alunos(nome, sobrenome, matricula, email, data_nascimento, nascionalidade, media_geral, id_curso) VALUES ('Joana', 'Frisk', 'Alumn-Admin-1/20210', 'joana@gmail.com', 19910330, 'Brasileira', 9.1, 1);
+INSERT INTO alunos(nome, sobrenome, matricula, email, data_nascimento, nascionalidade, media_geral, id_curso) VALUES ('Paulo', 'Conceição', 'Alumn-Mat-1/2021', 'paulo@gmail.com', 20000227, 'Brasilero', 9.5, 4);
+INSERT INTO alunos(nome, sobrenome, matricula, email, data_nascimento, nascionalidade, media_geral, id_curso) VALUES ('Julia', 'Rocha', 'Alumn-Cont-1/2021', 'julia@gmail.com', 19950306, 'Brasileira', 7.8, 3);
+INSERT INTO alunos(nome, sobrenome, matricula, email, data_nascimento, nascionalidade, media_geral, id_curso) VALUES ('Tadeu', 'Krugger', 'Alumn-SisInf-1/2021', 'tadeu@gmail.com', 20021212, 'Brasileiro', 10, 5);
+INSERT INTO alunos(nome, sobrenome, matricula, email, data_nascimento, nascionalidade, media_geral, id_curso) VALUES ('Vitoria', 'Soares', 'Alumn-EngMec-1/2021', 'vitoria@gmail.com', 20021113,'Brasileira', 9.6, 6);
