@@ -1,19 +1,19 @@
 Para a criação das tabelas pedidas, utilizaram-se os comandos abaixo listados:
 CREATE TABLE IF NOT EXISTS professores (
-    id_professor INT NOT NULL,
+    id_professor INT NOT NULL AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL,
     sobrenome VARCHAR(50) NOT NULL,
     endereco VARCHAR(500),
-    telefone VARCHAR(20),
-    email VARCHAR(150),
+    telefone VARCHAR(20) UNIQUE,
+    email VARCHAR(150) UNIQUE,
     data_nascimento DATE,
     nascionalidade VARCHAR(50),
     PRIMARY KEY (id_professor)
 );
 
 CREATE TABLE IF NOT EXISTS cursos (
-    id_curso INT NOT NULL,
-    codigo VARCHAR(50) NOT NULL,
+    id_curso INT NOT NULL AUTO_INCREMENT,
+    codigo VARCHAR(50) NOT NULL UNIQUE,
     nome VARCHAR(75) NOT NULL,
     modalidade ENUM('EAD', 'Presencial'),
     maximo_alunos INT,
@@ -24,11 +24,11 @@ CREATE TABLE IF NOT EXISTS cursos (
 );
 
 CREATE TABLE IF NOT EXISTS alunos (
-    id_aluno INT NOT NULL,
+    id_aluno INT NOT NULL AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL,
     sobrenome VARCHAR(50) NOT NULL,
-    matricula VARCHAR(100) NOT NULL,
-    email VARCHAR(150),
+    matricula VARCHAR(100) NOT NULL UNIQUE,
+    email VARCHAR(150) UNIQUE,
     data_nascimento DATE,
     nascionalidade VARCHAR(50),
     media_geral DECIMAL(5 , 2 ) NOT NULL,
