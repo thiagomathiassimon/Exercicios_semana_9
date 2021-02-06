@@ -1,0 +1,5 @@
+A criação das chaves primárias ocorreu quando da criação das tabelas, todavia, podem ser utilizados os comandos abaixo para criação posterior:
+ALTER TABLE professores ADD PRIMARY KEY (id_professor);
+ALTER TABLE cursos ADD PRIMARY KEY (id_curso);
+ALTER TABLE alunos ADD PRIMARY KEY (id_aluno);
+ALTER TABLE alunos_cursos ADD PRIMARY KEY (id);
