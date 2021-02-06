@@ -1,0 +1,2 @@
+Para o 'select' requisitado, utilizou-se o seguinte comando:
+SELECT * FROM alunos WHERE media_geral > 7 ORDER BY media_geral DESC; 
