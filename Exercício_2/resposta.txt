@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS cursos (
     PRIMARY KEY (id_curso),
     FOREIGN KEY (id_professor)
         REFERENCES professores (id_professor)
+        ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS alunos (
@@ -36,4 +37,5 @@ CREATE TABLE IF NOT EXISTS alunos (
     PRIMARY KEY (id_aluno),
     FOREIGN KEY (id_curso)
         REFERENCES cursos (id_curso)
+        ON DELETE CASCADE
 );
