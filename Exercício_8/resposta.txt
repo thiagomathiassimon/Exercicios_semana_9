@@ -1,0 +1,2 @@
+Para o 'select' requisitado, utilizou-se o seguinte comando:
+SELECT * FROM alunos WHERE nome LIKE ('J%');
