@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS professores (
     email VARCHAR(150) UNIQUE,
     data_nascimento DATE,
     nascionalidade VARCHAR(50),
+    sexo ENUM('Masculino', 'Feminino'),
     PRIMARY KEY (id_professor)
 );
 

@@ -1,10 +1,10 @@
 Para a inserção nas tabelas, foram usados os comandos abaixo:
-INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Pedro', 'de Souza', 'Florianópolis, Centro', '(048) 9 9657-0001', 'pedro@gmail.com', 19700228, 'Brasileiro');
-INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Ana', 'Silva', 'Florianópolis, Centro', '(048) 9 9657-0002', 'ana@gmail.com', 19670421, 'Brasileira');
-INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('André', 'Krigrer', 'Florianópolis, Centro', '(048) 9 9657-0003', 'andre@gmail.com', 19790302, 'Brasileiro');
-INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Juliana', 'Bruch', 'Florianópolis, Centro', '(048) 9 9657-0004', 'juliana@gmail.com', 19630611, 'Brasileira');
-INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Mateus', 'Muller', 'Florianópolis, Centro', '(048) 9 9657-0005', 'mateus@gmail.com', 19800911, 'Brasileiro');
-INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade) VALUES ('Luana', 'Klein', 'Florianópolis, Centro', '(048) 9 9657-0006', 'luana@gmail.com', 19681018, 'Brasileira');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade, sexo) VALUES ('Pedro', 'de Souza', 'Florianópolis, Centro', '(048) 9 9657-0001', 'pedro@gmail.com', 19700228, 'Brasileiro', 'Masculino');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade, sexo) VALUES ('Ana', 'Silva', 'Florianópolis, Centro', '(048) 9 9657-0002', 'ana@gmail.com', 19670421, 'Brasileira','Feminino');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade, sexo) VALUES ('André', 'Krigrer', 'Florianópolis, Centro', '(048) 9 9657-0003', 'andre@gmail.com', 19790302, 'Brasileiro', 'Masculino');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade, sexo) VALUES ('Juliana', 'Bruch', 'Florianópolis, Centro', '(048) 9 9657-0004', 'juliana@gmail.com', 19630611, 'Brasileira','Feminino');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade, sexo) VALUES ('Mateus', 'Muller', 'Florianópolis, Centro', '(048) 9 9657-0005', 'mateus@gmail.com', 19800911, 'Brasileiro', 'Masculino');
+INSERT INTO professores(nome, sobrenome, endereco, telefone, email, data_nascimento, nascionalidade, sexo) VALUES ('Luana', 'Klein', 'Florianópolis, Centro', '(048) 9 9657-0006', 'luana@gmail.com', 19681018, 'Brasileira','Feminino');
 
 INSERT INTO cursos(codigo, nome, modalidade, maximo_alunos, id_professor) VALUES ('Admin-1/2021', 'Administração', 'Presencial', 37, 1);
 INSERT INTO cursos(codigo, nome, modalidade, maximo_alunos, id_professor) VALUES ('Bio-1/2021', 'Biologia', 'EAD', 60, 6);

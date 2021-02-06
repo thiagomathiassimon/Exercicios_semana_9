@@ -1,0 +1,5 @@
+A criação das chaves estrangeiras ocorreu quando da criação das tabelas, todavia, podem ser utilizados os comandos abaixo para criação posterior:
+ALTER TABLE cursos ADD FOREIGN KEY (id_professor) REFERENCES professores(id_professor);
+ALTER TABLE alunos ADD FOREIGN KEY (id_curso) REFERENCES cursos(id_curso);
+ALTER TABLE alunos_cursos ADD FOREIGN KEY (id_curso) REFERENCES cursos(id_curso); 
+ALTER TABLE alunos_cursos ADD FOREIGN KEY (id_aluno) REFERENCES alunos(id_aluno);
