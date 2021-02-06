@@ -1,0 +1,2 @@
+Para o referido 'select', utilizou-se o seguinte comando:
+SELECT * FROM escola.cursos WHERE modalidade = 'Presencial' AND maximo_alunos > 30;
