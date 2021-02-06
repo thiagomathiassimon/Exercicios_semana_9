@@ -1,0 +1,2 @@
+Para o 'select' requisitado, utilizou-se o comando abaixo:
+SELECT * FROM professores WHERE nascionalidade IN ('Brasileiro', 'Brasileira', 'Argentino', 'Argentina', 'Chileno', 'Chilena', 'Uruguaio','Uruguaia','Paraguaio','Paraguia','Boliviano','Boliviana','Peruano','Peruana','Equatoriano','Equatoriana','Colombiano','Colombiana','Venezuelano','Venezuelana','Guianês','Guianense','Guiano','Guiana','Franco guianês','Surinameso');
