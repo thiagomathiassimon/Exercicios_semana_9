@@ -1,0 +1,2 @@
+Para o 'select' requisitado, utilizou-se o seguinte comando:
+SELECT a.*, c.codigo, c.nome, c.modalidade FROM alunos a INNER JOIN  cursos c ON a.id_curso = c.id_curso WHERE modalidade = 'EAD';
