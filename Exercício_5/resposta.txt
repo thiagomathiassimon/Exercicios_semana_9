@@ -1,0 +1,2 @@
+Para a atualização da média geral dum aluno, utilizou-se o seguinte comando:
+UPDATE alunos SET media_geral = 8.5 WHERE id_aluno = 4;
