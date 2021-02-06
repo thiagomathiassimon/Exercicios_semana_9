@@ -1,0 +1,2 @@
+Para a exclusão dum curso, utilizou-se o seguinte comando:
+DELETE FROM cursos WHERE id_curso = 2;
